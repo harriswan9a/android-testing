@@ -29,7 +29,8 @@ public class MainFragment extends Fragment {
             public void onClick(View view) {
                 Intent it = new Intent(getActivity(), SecondActivity.class);
                 MainFragment.this.startActivityForResult(it, 0);
-//                getActivity().startActivityForResult(it, 0); //It through test
+                //It through test
+                //getActivity().startActivityForResult(it, 0);
             }
         });
     }
